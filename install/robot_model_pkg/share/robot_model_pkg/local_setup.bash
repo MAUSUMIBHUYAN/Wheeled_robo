@@ -1,0 +1,1 @@
+/home/mausumi/robot_ws/build/robot_model_pkg/ament_cmake_environment_hooks/local_setup.bash

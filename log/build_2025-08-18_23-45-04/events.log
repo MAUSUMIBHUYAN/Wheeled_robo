@@ -1,0 +1,168 @@
+[0.000000] (-) TimerEvent: {}
+[0.000468] (robot_model_pkg) JobQueued: {'identifier': 'robot_model_pkg', 'dependencies': OrderedDict()}
+[0.000491] (robot_model_pkg) JobStarted: {'identifier': 'robot_model_pkg'}
+[0.006101] (robot_model_pkg) JobProgress: {'identifier': 'robot_model_pkg', 'progress': 'cmake'}
+[0.006474] (robot_model_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/mausumi/robot_ws/src/robot_model_pkg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/mausumi/robot_ws/install/robot_model_pkg'], 'cwd': '/home/mausumi/robot_ws/build/robot_model_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'mausumi'), ('LC_TIME', 'en_IN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/mausumi'), ('OLDPWD', '/home/mausumi/robot_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_IN'), ('SYSTEMD_EXEC_PID', '1419'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mausumi/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mausumi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mausumi'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/mausumi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mausumi-VivoBook-ASUSLaptop-X513EAN-K513EA:@/tmp/.ICE-unix/1389,unix/mausumi-VivoBook-ASUSLaptop-X513EAN-K513EA:/tmp/.ICE-unix/1389'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_IN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e34c2997_b271_4583_b20d_7b9d5a8f6b8e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_IN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L9THB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/mausumi/robot_ws/install/robot_model_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_IN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_IN'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'en_IN'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mausumi/robot_ws/build/robot_model_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_IN'), ('LC_PAPER', 'en_IN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mausumi/robot_ws/install/robot_model_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099863] (-) TimerEvent: {}
+[0.117309] (robot_model_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199991] (-) TimerEvent: {}
+[0.230307] (robot_model_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.239558] (robot_model_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.292851] (robot_model_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.297874] (robot_model_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.298209] (robot_model_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.298735] (robot_model_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.300035] (-) TimerEvent: {}
+[0.301486] (robot_model_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.358859] (robot_model_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.363900] (robot_model_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.364110] (robot_model_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.364428] (robot_model_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.367136] (robot_model_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400145] (-) TimerEvent: {}
+[0.472662] (robot_model_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500252] (-) TimerEvent: {}
+[0.521263] (robot_model_pkg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.546963] (robot_model_pkg) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[0.586301] (robot_model_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.591207] (robot_model_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.599310] (robot_model_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.600313] (-) TimerEvent: {}
+[0.609842] (robot_model_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.625482] (robot_model_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.662489] (robot_model_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.664802] (robot_model_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700444] (-) TimerEvent: {}
+[0.730203] (robot_model_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.749701] (robot_model_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.777663] (robot_model_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.785291] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.800542] (-) TimerEvent: {}
+[0.837021] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.837408] (robot_model_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.892313] (robot_model_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.893186] (robot_model_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.900615] (-) TimerEvent: {}
+[0.950689] (robot_model_pkg) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.952251] (robot_model_pkg) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.961049] (robot_model_pkg) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.000732] (-) TimerEvent: {}
+[1.033199] (robot_model_pkg) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.070615] (robot_model_pkg) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.087590] (robot_model_pkg) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.100815] (-) TimerEvent: {}
+[1.108223] (robot_model_pkg) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.125275] (robot_model_pkg) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.129054] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.135830] (robot_model_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.137566] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.138123] (robot_model_pkg) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.143297] (robot_model_pkg) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.151732] (robot_model_pkg) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.172703] (robot_model_pkg) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.176940] (robot_model_pkg) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.184503] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.188372] (robot_model_pkg) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.188543] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.191437] (robot_model_pkg) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.191566] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.194634] (robot_model_pkg) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.194781] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.197892] (robot_model_pkg) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.198006] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.200879] (-) TimerEvent: {}
+[1.201178] (robot_model_pkg) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.201296] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.205138] (robot_model_pkg) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.274871] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.276706] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.277068] (robot_model_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.288906] (robot_model_pkg) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.295673] (robot_model_pkg) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.299427] (robot_model_pkg) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.300955] (-) TimerEvent: {}
+[1.311252] (robot_model_pkg) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.335646] (robot_model_pkg) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.340107] (robot_model_pkg) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.348587] (robot_model_pkg) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.369328] (robot_model_pkg) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.370946] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.371261] (robot_model_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.383709] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.387638] (robot_model_pkg) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.396470] (robot_model_pkg) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.401066] (-) TimerEvent: {}
+[1.419078] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.421068] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.421411] (robot_model_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.421914] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.422531] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.423530] (robot_model_pkg) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.432606] (robot_model_pkg) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[1.433176] (robot_model_pkg) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.435202] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.435531] (robot_model_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.435930] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.438038] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.438295] (robot_model_pkg) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.489793] (robot_model_pkg) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.497606] (robot_model_pkg) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.501178] (-) TimerEvent: {}
+[1.507930] (robot_model_pkg) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.529546] (robot_model_pkg) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.536463] (robot_model_pkg) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.545087] (robot_model_pkg) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.566614] (robot_model_pkg) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.566977] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.567304] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.567619] (robot_model_pkg) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.570182] (robot_model_pkg) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[1.570457] (robot_model_pkg) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[1.579430] (robot_model_pkg) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[1.601307] (-) TimerEvent: {}
+[1.601745] (robot_model_pkg) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[1.648896] (robot_model_pkg) StdoutLine: {'line': b'-- Found gazebo_ros2_control: 0.4.10 (/opt/ros/humble/share/gazebo_ros2_control/cmake)\n'}
+[1.701421] (-) TimerEvent: {}
+[1.801676] (-) TimerEvent: {}
+[1.804974] (robot_model_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.866075] (robot_model_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.866627] (robot_model_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.867093] (robot_model_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.868838] (robot_model_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.869949] (robot_model_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.873841] (robot_model_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.875915] (robot_model_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/mausumi/robot_ws/build/robot_model_pkg\n'}
+[1.886028] (robot_model_pkg) CommandEnded: {'returncode': 0}
+[1.886584] (robot_model_pkg) JobProgress: {'identifier': 'robot_model_pkg', 'progress': 'build'}
+[1.887157] (robot_model_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mausumi/robot_ws/build/robot_model_pkg', '--', '-j4', '-l4'], 'cwd': '/home/mausumi/robot_ws/build/robot_model_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'mausumi'), ('LC_TIME', 'en_IN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/mausumi'), ('OLDPWD', '/home/mausumi/robot_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_IN'), ('SYSTEMD_EXEC_PID', '1419'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mausumi/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mausumi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mausumi'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/mausumi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mausumi-VivoBook-ASUSLaptop-X513EAN-K513EA:@/tmp/.ICE-unix/1389,unix/mausumi-VivoBook-ASUSLaptop-X513EAN-K513EA:/tmp/.ICE-unix/1389'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_IN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e34c2997_b271_4583_b20d_7b9d5a8f6b8e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_IN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L9THB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/mausumi/robot_ws/install/robot_model_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_IN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_IN'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'en_IN'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mausumi/robot_ws/build/robot_model_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_IN'), ('LC_PAPER', 'en_IN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mausumi/robot_ws/install/robot_model_pkg:/opt/ros/humble')]), 'shell': False}
+[1.901878] (-) TimerEvent: {}
+[1.918601] (robot_model_pkg) CommandEnded: {'returncode': 0}
+[1.919103] (robot_model_pkg) JobProgress: {'identifier': 'robot_model_pkg', 'progress': 'install'}
+[1.925402] (robot_model_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mausumi/robot_ws/build/robot_model_pkg'], 'cwd': '/home/mausumi/robot_ws/build/robot_model_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_CA:en'), ('USER', 'mausumi'), ('LC_TIME', 'en_IN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/mausumi'), ('OLDPWD', '/home/mausumi/robot_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_IN'), ('SYSTEMD_EXEC_PID', '1419'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mausumi/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mausumi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mausumi'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo/../../share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '1'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/mausumi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mausumi-VivoBook-ASUSLaptop-X513EAN-K513EA:@/tmp/.ICE-unix/1389,unix/mausumi-VivoBook-ASUSLaptop-X513EAN-K513EA:/tmp/.ICE-unix/1389'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_IN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e34c2997_b271_4583_b20d_7b9d5a8f6b8e'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_CA.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_IN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.L9THB3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.110'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '100'), ('AMENT_PREFIX_PATH', '/home/mausumi/robot_ws/install/robot_model_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_IN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_IN'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo/../../share/gazebo-11:'), ('LC_IDENTIFICATION', 'en_IN'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mausumi/robot_ws/build/robot_model_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_IN'), ('LC_PAPER', 'en_IN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mausumi/robot_ws/install/robot_model_pkg:/opt/ros/humble')]), 'shell': False}
+[1.931723] (robot_model_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.932163] (robot_model_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.932640] (robot_model_pkg) StdoutLine: {'line': b'-- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/launch/.vscode/c_cpp_properties.json\n'}
+[1.939925] (robot_model_pkg) StdoutLine: {'line': b'-- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/launch/.vscode/settings.json\n'}
+[1.946225] (robot_model_pkg) StdoutLine: {'line': b'-- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/launch/robot_xacro.launch\n'}
+[1.952284] (robot_model_pkg) StdoutLine: {'line': b'-- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/launch/robot_xacro.launch.py\n'}
+[1.958784] (robot_model_pkg) StdoutLine: {'line': b'-- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/urdf/robot.gazebo\n'}
+[1.965290] (robot_model_pkg) StdoutLine: {'line': b'-- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/urdf/robot.xacro\n'}
+[1.971713] (robot_model_pkg) StdoutLine: {'line': b'-- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/ament_index/resource_index/package_run_dependencies/robot_model_pkg\n'}
+[1.977922] (robot_model_pkg) StdoutLine: {'line': b'-- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/ament_index/resource_index/parent_prefix_path/robot_model_pkg\n'}
+[1.984333] (robot_model_pkg) StdoutLine: {'line': b'-- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/environment/ament_prefix_path.sh\n'}
+[1.990678] (robot_model_pkg) StdoutLine: {'line': b'-- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/environment/ament_prefix_path.dsv\n'}
+[1.996997] (robot_model_pkg) StdoutLine: {'line': b'-- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/environment/path.sh\n'}
+[2.001994] (-) TimerEvent: {}
+[2.003214] (robot_model_pkg) StdoutLine: {'line': b'-- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/environment/path.dsv\n'}
+[2.009770] (robot_model_pkg) StdoutLine: {'line': b'-- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/local_setup.bash\n'}
+[2.016101] (robot_model_pkg) StdoutLine: {'line': b'-- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/local_setup.sh\n'}
+[2.022828] (robot_model_pkg) StdoutLine: {'line': b'-- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/local_setup.zsh\n'}
+[2.029450] (robot_model_pkg) StdoutLine: {'line': b'-- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/local_setup.dsv\n'}
+[2.037293] (robot_model_pkg) StdoutLine: {'line': b'-- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/package.dsv\n'}
+[2.043697] (robot_model_pkg) StdoutLine: {'line': b'-- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/ament_index/resource_index/packages/robot_model_pkg\n'}
+[2.050082] (robot_model_pkg) StdoutLine: {'line': b'-- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/cmake/robot_model_pkgConfig.cmake\n'}
+[2.056376] (robot_model_pkg) StdoutLine: {'line': b'-- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/cmake/robot_model_pkgConfig-version.cmake\n'}
+[2.062732] (robot_model_pkg) StdoutLine: {'line': b'-- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/package.xml\n'}
+[2.070399] (robot_model_pkg) CommandEnded: {'returncode': 0}
+[2.080340] (robot_model_pkg) JobEnded: {'identifier': 'robot_model_pkg', 'rc': 0}
+[2.080807] (-) EventReactorShutdown: {}

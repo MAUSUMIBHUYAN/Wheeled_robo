@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/launch/.vscode/c_cpp_properties.json
+-- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/launch/.vscode/settings.json
+-- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/launch/robot_xacro.launch
+-- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/launch/robot_xacro.launch.py
+-- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/urdf/robot.gazebo
+-- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/urdf/robot.xacro
+-- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/ament_index/resource_index/package_run_dependencies/robot_model_pkg
+-- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/ament_index/resource_index/parent_prefix_path/robot_model_pkg
+-- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/environment/path.sh
+-- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/environment/path.dsv
+-- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/local_setup.bash
+-- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/local_setup.sh
+-- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/local_setup.zsh
+-- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/local_setup.dsv
+-- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/package.dsv
+-- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/ament_index/resource_index/packages/robot_model_pkg
+-- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/cmake/robot_model_pkgConfig.cmake
+-- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/cmake/robot_model_pkgConfig-version.cmake
+-- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/package.xml
