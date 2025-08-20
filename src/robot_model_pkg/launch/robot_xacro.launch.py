@@ -39,5 +39,10 @@ def generate_launch_description():
 	    package='controller_manager',
 	    executable='spawner',
 	    arguments=['diff_cont'],
-	)
+	),
+        Node(
+            package='random_motion',
+            executable='random_move',
+            output='screen'
+        )
     ])

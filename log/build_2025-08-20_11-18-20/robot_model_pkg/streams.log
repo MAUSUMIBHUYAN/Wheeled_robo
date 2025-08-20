@@ -1,0 +1,27 @@
+[0.191s] Invoking command in '/home/mausumi/robot_ws/build/robot_model_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mausumi/robot_ws/install/random_motion:/opt/ros/humble /usr/bin/cmake --build /home/mausumi/robot_ws/build/robot_model_pkg -- -j4 -l4
+[0.225s] Invoked command in '/home/mausumi/robot_ws/build/robot_model_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mausumi/robot_ws/install/random_motion:/opt/ros/humble /usr/bin/cmake --build /home/mausumi/robot_ws/build/robot_model_pkg -- -j4 -l4
+[0.234s] Invoking command in '/home/mausumi/robot_ws/build/robot_model_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mausumi/robot_ws/install/random_motion:/opt/ros/humble /usr/bin/cmake --install /home/mausumi/robot_ws/build/robot_model_pkg
+[0.240s] -- Install configuration: ""
+[0.241s] -- Execute custom install script
+[0.241s] -- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/launch/.vscode/c_cpp_properties.json
+[0.242s] -- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/launch/.vscode/settings.json
+[0.242s] -- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/launch/robot_xacro.launch
+[0.242s] -- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/launch/robot_xacro.launch.py
+[0.242s] -- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/urdf/robot.gazebo
+[0.242s] -- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/urdf/robot.xacro
+[0.242s] -- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/ament_index/resource_index/package_run_dependencies/robot_model_pkg
+[0.242s] -- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/ament_index/resource_index/parent_prefix_path/robot_model_pkg
+[0.242s] -- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/environment/ament_prefix_path.sh
+[0.243s] -- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/environment/ament_prefix_path.dsv
+[0.243s] -- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/environment/path.sh
+[0.243s] -- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/environment/path.dsv
+[0.243s] -- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/local_setup.bash
+[0.243s] -- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/local_setup.sh
+[0.243s] -- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/local_setup.zsh
+[0.243s] -- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/local_setup.dsv
+[0.244s] -- Symlinking: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/package.dsv
+[0.254s] -- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/ament_index/resource_index/packages/robot_model_pkg
+[0.254s] -- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/cmake/robot_model_pkgConfig.cmake
+[0.254s] -- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/cmake/robot_model_pkgConfig-version.cmake
+[0.254s] -- Up-to-date symlink: /home/mausumi/robot_ws/install/robot_model_pkg/share/robot_model_pkg/package.xml
+[0.256s] Invoked command in '/home/mausumi/robot_ws/build/robot_model_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mausumi/robot_ws/install/random_motion:/opt/ros/humble /usr/bin/cmake --install /home/mausumi/robot_ws/build/robot_model_pkg

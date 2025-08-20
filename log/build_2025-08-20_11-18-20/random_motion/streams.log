@@ -1,0 +1,19 @@
+[0.479s] Invoking command in '/home/mausumi/robot_ws/build/random_motion': PYTHONPATH=/home/mausumi/robot_ws/build/random_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mausumi/robot_ws/install/random_motion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mausumi/robot_ws/build/random_motion/build --no-deps symlink_data --force
+[0.657s] running develop
+[0.772s] running egg_info
+[0.772s] writing random_motion.egg-info/PKG-INFO
+[0.772s] writing dependency_links to random_motion.egg-info/dependency_links.txt
+[0.773s] writing entry points to random_motion.egg-info/entry_points.txt
+[0.773s] writing requirements to random_motion.egg-info/requires.txt
+[0.773s] writing top-level names to random_motion.egg-info/top_level.txt
+[0.774s] reading manifest file 'random_motion.egg-info/SOURCES.txt'
+[0.775s] writing manifest file 'random_motion.egg-info/SOURCES.txt'
+[0.776s] running build_ext
+[0.776s] Creating /home/mausumi/robot_ws/install/random_motion/lib/python3.10/site-packages/random-motion.egg-link (link to .)
+[0.776s] Installing random_move script to /home/mausumi/robot_ws/install/random_motion/lib/random_motion
+[0.776s] 
+[0.776s] Installed /home/mausumi/robot_ws/build/random_motion
+[0.777s] running symlink_data
+[0.777s] symbolically linking /home/mausumi/robot_ws/build/random_motion/resource/random_motion -> /home/mausumi/robot_ws/install/random_motion/share/ament_index/resource_index/packages
+[0.777s] symbolically linking /home/mausumi/robot_ws/build/random_motion/package.xml -> /home/mausumi/robot_ws/install/random_motion/share/random_motion
+[0.800s] Invoked command in '/home/mausumi/robot_ws/build/random_motion' returned '0': PYTHONPATH=/home/mausumi/robot_ws/build/random_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mausumi/robot_ws/install/random_motion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mausumi/robot_ws/build/random_motion/build --no-deps symlink_data --force

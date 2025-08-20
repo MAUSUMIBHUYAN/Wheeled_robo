@@ -10,7 +10,11 @@ setup.py
 ../../build/random_motion/random_motion.egg-info/zip-safe
 random_motion/__init__.py
 random_motion/random_move.py
+random_motion.egg-info/PKG-INFO
+random_motion.egg-info/SOURCES.txt
+random_motion.egg-info/dependency_links.txt
+random_motion.egg-info/entry_points.txt
+random_motion.egg-info/requires.txt
+random_motion.egg-info/top_level.txt
+random_motion.egg-info/zip-safe
 resource/random_motion
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

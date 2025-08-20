@@ -1,0 +1,50 @@
+sudo apt-get install ros-humble-gazebo-pkgs
+sudo apt-get install ros-humble-gazebo-msgs
+sudo apt-get install ros-humble-gazebo-plugins
+sudo apt-get install ros-humble-gazebo-ros2-control
+sudo apt-get install ros-humble-teleop-twist-keyboard
+
+mkdir -p ~/robot_ws/src
+cd ~/robot_ws
+colcon build --symlink-install
+echo $ROS_PACKAGE_PATH
+
+cd ~/robot_ws/src
+ros2 pkg create robot_model_pkg --build-type ament_cmake --dependencies gazebo_ros gazebo_msgs gazebo_ros2_control
+
+cd ~/robot_ws/src/robot_model_pkg
+mkdir urdf
+cd ~/robot_ws/src/robot_model_pkg/urdf
+gedit robot.xacro
+
+gedit ~/robot_ws/src/robot_model_pkg/urdf/robot.gazebo
+
+
+cd ~/robot_ws/src/robot_model_pkg
+mkdir launch
+cd ~/robot_ws/src/robot_model_pkg/launch
+touch robot_xacro.launch.py
+gedit robot_xacro.launch.py 
+
+cd ~/robot_ws
+colcon build --symlink-install
+source install/setup.bash
+ros2 launch robot_model_pkg robot_xacro.launch.py
+
+
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
+
+cd ~/robot_ws/src/robot_model_pkg
+mkdir -p config
+
+terminal to run: 
+cd ~/robot_ws
+source install/setup.bash
+ros2 launch robot_model_pkg robot_xacro.launch.py
+
+
+cd ~/robot_ws
+source install/setup.bash
+ros2 run random_motion random_move
+
