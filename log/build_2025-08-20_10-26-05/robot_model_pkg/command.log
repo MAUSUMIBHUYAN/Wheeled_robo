@@ -1,0 +1,4 @@
+Invoking command in '/home/mausumi/robot_ws/build/robot_model_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mausumi/robot_ws/build/robot_model_pkg -- -j4 -l4
+Invoked command in '/home/mausumi/robot_ws/build/robot_model_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mausumi/robot_ws/build/robot_model_pkg -- -j4 -l4
+Invoking command in '/home/mausumi/robot_ws/build/robot_model_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mausumi/robot_ws/build/robot_model_pkg
+Invoked command in '/home/mausumi/robot_ws/build/robot_model_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mausumi/robot_ws/build/robot_model_pkg
