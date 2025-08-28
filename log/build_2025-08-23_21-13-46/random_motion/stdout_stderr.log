@@ -1,0 +1,27 @@
+running develop
+Removing /home/mausumi/robot_ws/install/random_motion/lib/python3.10/site-packages/random-motion.egg-link (link to .)
+running egg_info
+writing ../../build/random_motion/random_motion.egg-info/PKG-INFO
+writing dependency_links to ../../build/random_motion/random_motion.egg-info/dependency_links.txt
+writing entry points to ../../build/random_motion/random_motion.egg-info/entry_points.txt
+writing requirements to ../../build/random_motion/random_motion.egg-info/requires.txt
+writing top-level names to ../../build/random_motion/random_motion.egg-info/top_level.txt
+reading manifest file '../../build/random_motion/random_motion.egg-info/SOURCES.txt'
+writing manifest file '../../build/random_motion/random_motion.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/mausumi/robot_ws/install/random_motion/lib/python3.10/site-packages/random_motion
+copying /home/mausumi/robot_ws/build/random_motion/build/lib/random_motion/random_move.py -> /home/mausumi/robot_ws/install/random_motion/lib/python3.10/site-packages/random_motion
+copying /home/mausumi/robot_ws/build/random_motion/build/lib/random_motion/__init__.py -> /home/mausumi/robot_ws/install/random_motion/lib/python3.10/site-packages/random_motion
+byte-compiling /home/mausumi/robot_ws/install/random_motion/lib/python3.10/site-packages/random_motion/random_move.py to random_move.cpython-310.pyc
+byte-compiling /home/mausumi/robot_ws/install/random_motion/lib/python3.10/site-packages/random_motion/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/random_motion -> /home/mausumi/robot_ws/install/random_motion/share/ament_index/resource_index/packages
+copying package.xml -> /home/mausumi/robot_ws/install/random_motion/share/random_motion
+running install_egg_info
+Copying ../../build/random_motion/random_motion.egg-info to /home/mausumi/robot_ws/install/random_motion/lib/python3.10/site-packages/random_motion-0.0.0-py3.10.egg-info
+running install_scripts
+Installing random_move script to /home/mausumi/robot_ws/install/random_motion/lib/random_motion
+writing list of installed files to '/home/mausumi/robot_ws/build/random_motion/install.log'

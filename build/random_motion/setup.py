@@ -1,1 +1,0 @@
-/home/mausumi/robot_ws/src/random_motion/setup.py

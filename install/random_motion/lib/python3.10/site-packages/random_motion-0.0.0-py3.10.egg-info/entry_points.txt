@@ -1,0 +1,3 @@
+[console_scripts]
+random_move = random_motion.random_move:main
+

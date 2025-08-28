@@ -1,0 +1,31 @@
+[0.492s] Invoking command in '/home/mausumi/robot_ws/build/random_motion': PYTHONPATH=/home/mausumi/robot_ws/build/random_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mausumi/robot_ws/install/random_motion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/mausumi/robot_ws/build/random_motion/build
+[0.722s] running develop
+[0.891s] Removing /home/mausumi/robot_ws/install/random_motion/lib/python3.10/site-packages/random-motion.egg-link (link to .)
+[0.923s] Invoked command in '/home/mausumi/robot_ws/build/random_motion' returned '0': PYTHONPATH=/home/mausumi/robot_ws/build/random_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mausumi/robot_ws/install/random_motion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/mausumi/robot_ws/build/random_motion/build
+[0.926s] Invoking command in '/home/mausumi/robot_ws/src/random_motion': PYTHONPATH=/home/mausumi/robot_ws/build/random_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mausumi/robot_ws/install/random_motion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/random_motion build --build-base /home/mausumi/robot_ws/build/random_motion/build install --record /home/mausumi/robot_ws/build/random_motion/install.log --single-version-externally-managed install_data --force
+[1.109s] running egg_info
+[1.110s] writing ../../build/random_motion/random_motion.egg-info/PKG-INFO
+[1.110s] writing dependency_links to ../../build/random_motion/random_motion.egg-info/dependency_links.txt
+[1.110s] writing entry points to ../../build/random_motion/random_motion.egg-info/entry_points.txt
+[1.110s] writing requirements to ../../build/random_motion/random_motion.egg-info/requires.txt
+[1.110s] writing top-level names to ../../build/random_motion/random_motion.egg-info/top_level.txt
+[1.112s] reading manifest file '../../build/random_motion/random_motion.egg-info/SOURCES.txt'
+[1.112s] writing manifest file '../../build/random_motion/random_motion.egg-info/SOURCES.txt'
+[1.113s] running build
+[1.113s] running build_py
+[1.113s] running install
+[1.113s] running install_lib
+[1.114s] creating /home/mausumi/robot_ws/install/random_motion/lib/python3.10/site-packages/random_motion
+[1.114s] copying /home/mausumi/robot_ws/build/random_motion/build/lib/random_motion/random_move.py -> /home/mausumi/robot_ws/install/random_motion/lib/python3.10/site-packages/random_motion
+[1.114s] copying /home/mausumi/robot_ws/build/random_motion/build/lib/random_motion/__init__.py -> /home/mausumi/robot_ws/install/random_motion/lib/python3.10/site-packages/random_motion
+[1.115s] byte-compiling /home/mausumi/robot_ws/install/random_motion/lib/python3.10/site-packages/random_motion/random_move.py to random_move.cpython-310.pyc
+[1.115s] byte-compiling /home/mausumi/robot_ws/install/random_motion/lib/python3.10/site-packages/random_motion/__init__.py to __init__.cpython-310.pyc
+[1.115s] running install_data
+[1.115s] copying resource/random_motion -> /home/mausumi/robot_ws/install/random_motion/share/ament_index/resource_index/packages
+[1.115s] copying package.xml -> /home/mausumi/robot_ws/install/random_motion/share/random_motion
+[1.116s] running install_egg_info
+[1.117s] Copying ../../build/random_motion/random_motion.egg-info to /home/mausumi/robot_ws/install/random_motion/lib/python3.10/site-packages/random_motion-0.0.0-py3.10.egg-info
+[1.118s] running install_scripts
+[1.134s] Installing random_move script to /home/mausumi/robot_ws/install/random_motion/lib/random_motion
+[1.134s] writing list of installed files to '/home/mausumi/robot_ws/build/random_motion/install.log'
+[1.162s] Invoked command in '/home/mausumi/robot_ws/src/random_motion' returned '0': PYTHONPATH=/home/mausumi/robot_ws/build/random_motion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mausumi/robot_ws/install/random_motion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/random_motion build --build-base /home/mausumi/robot_ws/build/random_motion/build install --record /home/mausumi/robot_ws/build/random_motion/install.log --single-version-externally-managed install_data --force

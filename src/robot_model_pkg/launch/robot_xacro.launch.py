@@ -28,11 +28,19 @@ def generate_launch_description():
         ),
 
         # Spawn robot in Gazebo
+        # Node(
+        #     package='gazebo_ros',
+        #     executable='spawn_entity.py',
+        #     arguments=['-topic', 'robot_description',
+        #                '-entity', 'robot_model'],
+        #     output='screen'
+        # ),
         Node(
             package='gazebo_ros',
             executable='spawn_entity.py',
             arguments=['-topic', 'robot_description',
-                       '-entity', 'robot_model'],
+                       '-entity', 'robot_model',
+                       '-x', '2.0', '-y', '-3.0', '-z', '0.1'],
             output='screen'
         ),
         Node(

@@ -1,31 +1,26 @@
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import Twist
-import random
-import math
-import time
 
-class RandomMove(Node):
+class StraightMove(Node):
     def __init__(self):
-        super().__init__('random_move')
+        super().__init__('straight_move')
         self.publisher = self.create_publisher(Twist, 'cmd_vel', 10)
-        self.timer = self.create_timer(1.0, self.move_random)  # every 1 sec
+        self.timer = self.create_timer(1.0, self.move_straight)  # every 1 sec
 
-    def move_random(self):
+    def move_straight(self):
         msg = Twist()
 
-        # Random linear velocity (forward/backward)
-        msg.linear.x = random.uniform(0.0, 1.0)
-
-        # Random angular velocity (turning)
-        msg.angular.z = random.uniform(-1.0, 1.0)
+        # Constant forward speed
+        msg.linear.x = 0.5   # adjust speed (m/s) as per your robot
+        msg.angular.z = 0.0  # no rotation → straight line
 
         self.publisher.publish(msg)
-        self.get_logger().info(f"Moving with linear={msg.linear.x:.2f}, angular={msg.angular.z:.2f}")
+        self.get_logger().info(f"Moving straight with linear={msg.linear.x:.2f}")
 
 def main(args=None):
     rclpy.init(args=args)
-    node = RandomMove()
+    node = StraightMove()
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
